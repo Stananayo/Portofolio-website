@@ -1,0 +1,338 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #0073e6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.project {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form */
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #0073e6;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #005bb5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+/* Vision Section */
+#vision {
+    padding: 40px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+/* Using Grid for Responsive Layout */
+.vision-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Individual Vision Items */
+.vision-item {
+    background: #0073e6;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    .vision-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Skills Section */
+#skills {
+    padding: 40px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+/* Grid Layout for Skills */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Individual Skill Block */
+.skill {
+    background: #0073e6;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* Read More Button */
+.read-more {
+    background: #ffffff;
+    color: #0073e6;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hidden Post Details */
+.post-details {
+    display: none;
+    margin-top: 10px;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Beautiful Background for the About Section */
+.about-background {
+    background: url('your-background-image.jpg') no-repeat center center/cover;
+    padding: 60px;
+    text-align: center;
+    color: black;
+}
+
+/* About Container with Grid */
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+/* Individual Article */
+.about {
+    background: rgba(0, 115, 230, 0.9);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Read More Button */
+.read-more {
+    background: #ffffff;
+    color: #0073e6;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Smooth Reveal for Post Details */
+.post-details {
+    display: none;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Interests Section */
+#interests {
+    padding: 40px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+/* Grid Layout for Interests */
+.interests-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Individual Interest Block */
+.interest {
+    background: #0073e6;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Read More Button */
+.read-more {
+    background: #ffffff;
+    color: #0073e6;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hidden Post Details */
+.post-details {
+    display: none;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    .interests-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+
+#skills {
+    padding: 40px;
+    background: #f4f4f4;
+    text-align: center;
+}
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #0073e6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+}
+
+#backToTop:hover {
+    background: #005bb5;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.social-media a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-media a img:hover {
+    transform: scale(1.2); /* Slight zoom effect */
+}
